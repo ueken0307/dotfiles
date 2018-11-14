@@ -1,0 +1,19 @@
+#!/bin/sh
+
+currentMode=`xrandr --current | grep "LVDS-1" | cut -d " " -f5`
+
+case $currentMode in
+  "(normal") xrandr -o right
+  ;;
+
+  "right") xrandr -o inverted
+  ;;
+
+  "inverted") xrandr -o left
+  ;;
+
+  "left") xrandr -o normal
+  ;;
+esac
+
+
