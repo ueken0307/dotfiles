@@ -76,7 +76,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+#bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -170,7 +170,7 @@ bar {
     background #222222
   }
   position top
-  font pango:DejaVu Mono 15
+  font pango:DejaVu Mono 12
   separator_symbol " "
   status_command sh $HOME/bin/conky-i3bar
 }
