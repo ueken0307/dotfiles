@@ -90,6 +90,14 @@
 "sh ~/bin/rotate"
   release+XF86RotateWindows
 
+#toggleTouch
+"sh ~/bin/toggleTouch"
+  release+XF86TaskPane
+
+#screenshot
+"flameshot full -p ~/Pictures/ScreenShots/"
+  XF86Launch1
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
