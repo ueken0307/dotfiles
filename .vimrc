@@ -58,3 +58,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'nathanaelkane/vim-indent-guides'
+"Plugin 'justmao945/vim-clang'
+
+"let g:clang_c_options = '-std=c11'
+"let g:clang_cpp_options = '-std=c++1z -lstdc++ -lstdc++fs'
+"let g:clang_check_syntax_auto = 1
