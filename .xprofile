@@ -80,6 +80,9 @@ xinput --set-prop `xinput list | grep "TrackPoint" |cut -f2 | cut -d= -f2` 'libi
 #xbindkeys
 xbindkeys &
 
+#devmon
+devmon &
+
 #i3
-feh --bg-scale ~/Pictures/wallpaper.png
+feh --bg-scale ~/Pictures/wallpaper
 exec i3
