@@ -1,4 +1,4 @@
-# Config files for x230t
+# dotfiles for x230t
 
 os : archlinux  
 wm : i3  
